@@ -4,8 +4,10 @@ import { fetchUsers } from "../store";
 
 function UsersList(){
  const dispatch=useDispatch();
- const{isLodaing,data,error}=useSelector((state)=>{
+ const{isLoading,data,error}=useSelector((state)=>{
+    console.log(state.users)
     return state.users
+
  })
 
 
@@ -15,7 +17,7 @@ function UsersList(){
 
     },[dispatch ]);  
 
-    if(isLodaing){
+    if(isLoading){
         return<div>Loading...</div>
         
         

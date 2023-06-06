@@ -1,5 +1,30 @@
 {
-  "users":[{"id":1,"name":"Myra"}],
-  "albums":[],
-  "photos":[]
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Wilma Viviers",
+      "id": 2
+    },
+    {
+      "name": "Dawn Harber Sr.",
+      "id": 3
+    },
+    {
+      "name": "Blake Green",
+      "id": 4
+    },
+    {
+      "name": "Christopher Haag",
+      "id": 5
+    },
+    {
+      "name": "Elmer Klein",
+      "id": 6
+    }
+  ],
+  "albums": [],
+  "photos": []
 }

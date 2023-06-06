@@ -1,28 +1,12 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Myra"
+      "name": "Mark DuBuque",
+      "id": 7
     },
     {
-      "name": "Wilma Viviers",
-      "id": 2
-    },
-    {
-      "name": "Dawn Harber Sr.",
-      "id": 3
-    },
-    {
-      "name": "Blake Green",
-      "id": 4
-    },
-    {
-      "name": "Christopher Haag",
-      "id": 5
-    },
-    {
-      "name": "Elmer Klein",
-      "id": 6
+      "name": "Darnell Kuhic",
+      "id": 8
     }
   ],
   "albums": [],

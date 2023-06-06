@@ -11,7 +11,8 @@ import UsersListItem from "./UsersListItem";
 function UsersList(){
    
     const[doFetchUsers,isLoadingUsers,loadingUsersError]=useThunk(fetchUsers)
-    const[doCraeteUser,isCreatingUser,creatingUserError]=useThunk(addUser)
+    const[doCreateUser,isCreatingUser,creatingUserError]=useThunk(addUser)
+   
 
 //  const{isLoading,data,error}=useSelector((state)=>{
 //     console.log(state.users)
@@ -33,7 +34,7 @@ function UsersList(){
     },[doFetchUsers ]);  
 
     const handleUserAdd=()=>{
-        doCraeteUser()
+        doCreateUser()
     } 
 
     // if(isLoading){
